@@ -14,7 +14,7 @@ function App() {
     /* Ez a függvény fogja lekezelni a gyerekkomponsenstől kapott infókat. */
     /* state-ek értékét nem változtathatjuk közvetlenül, csak a hozzárendelt függvények segítségével */
     const uLista = [...kLista];
-    kLista.push(adat);
+    uLista.push(adat);
     setkLista([...uLista]);
     console.log(adat);
   }
